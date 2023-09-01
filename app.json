@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Harambe",
+    "slug": "Harambe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/playstore.png",
+    "userInterfaceStyle": "Dark",
+    "splash": {
+      "image": "./assets/spalash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000"
+      },
+      "package": "com.sajidalee1.HarambeWisdom"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7c358e51-e054-4279-b747-c0aa9f273039"
+      }
+    }
+  }
+}
